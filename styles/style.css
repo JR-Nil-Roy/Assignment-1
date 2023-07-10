@@ -15,6 +15,10 @@
     padding: 20px 40px;
     color: white;
     border: none;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 20px;
+    cursor: pointer;
 }
 
 /* header style */
@@ -189,7 +193,7 @@
     font-size: 40px;
     font-weight: 800;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .off {
@@ -238,10 +242,56 @@
     line-height: 30px;
     width: 595px;
 }
-.insta-imgs{
+
+.insta-imgs {
     display: flex;
     justify-content: space-between;
 }
-.insta-imgs img{
+
+.insta-imgs img {
     width: 280px;
+}
+
+/* section 4 style */
+.sec-4 {}
+
+.bg-img {
+    background-image: url(/images/Rectangle\ 9.png);
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg-img h2 {
+    color: #272727;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.bg-img p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.email {
+    color: rgba(39, 39, 39, 0.60);
+    padding-left: 10px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    width: 580px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 15px;
 }
