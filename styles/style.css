@@ -62,6 +62,9 @@
 }
 
 /* main section design */
+.sec-1{
+    margin-bottom: 25px;
+}
 .featured-item {
     display: flex;
     flex-direction: column;
@@ -161,3 +164,7 @@
     text-decoration-line: underline;
 }
 
+/* section-2 style */
+.sec-2{
+    background-color: #E554730D;
+}
