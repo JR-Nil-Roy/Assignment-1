@@ -62,9 +62,10 @@
 }
 
 /* main section design */
-.sec-1{
+.sec-1 {
     margin-bottom: 25px;
 }
+
 .featured-item {
     display: flex;
     flex-direction: column;
@@ -165,6 +166,82 @@
 }
 
 /* section-2 style */
-.sec-2{
+.sec-2 {
     background-color: #E554730D;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.offer-1 {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offer-1 h2 {
+    color: #272727;
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.off {
+    color: #E55473;
+}
+
+.offer-1 p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.offer-1 button {
+    width: 155px;
+}
+
+/* section-3 style */
+.sec-3 {}
+
+.insta-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.insta-title h2 {
+    color: #272727;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.insta-title p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 595px;
+}
+.insta-imgs{
+    display: flex;
+    justify-content: space-between;
+}
+.insta-imgs img{
+    width: 280px;
 }
